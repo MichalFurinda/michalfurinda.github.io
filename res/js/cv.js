@@ -1,7 +1,7 @@
 const navlinky = document.querySelectorAll(".navlink");
 const sekcie = document.querySelectorAll("section");
 const options = {
-    threshold: 0.4
+    threshold: 0.33
 }
 let io = new IntersectionObserver(listcheck, options);
 
