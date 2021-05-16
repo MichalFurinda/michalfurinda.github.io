@@ -1,9 +1,269 @@
 <!DOCTYPE html>
 <html>
 
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/res/css/cv.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
 <body>
-    <h1>Hello World</h1>
-    <p>I'm hosted with GitHub Pages.</p>
+    <main>
+        <aside>
+            <div id="avatar" class="avatar">
+                <img src="/res/obr/ja.bmp" alt="ja">
+                <h3>Michal Furinda</h3>
+            </div>
+            <div class="list-polozky">
+                <nav>
+                    <ul>
+                        <li class="navlink">
+                            <a href="#praca" data-sekcia="praca">
+                                <div class="list-polozka">
+                                    <img src="/res/obr/praca.png">
+                                    <h3>Work experience</h3>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="navlink">
+                            <a href="#vzdelanie" data-sekcia="vzdelanie">
+                                <div class="list-polozka">
+                                    <img src="/res/obr/skola.png">
+                                    <h3>Education</h3>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="navlink">
+                            <a href="#ine" data-sekcia="ine">
+                                <div class="list-polozka">
+                                    <img src="/res/obr/ine.png">
+                                    <h3>Other knowledge</h3>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="navlink">
+                            <a href="#kontakt" data-sekcia="kontakt">
+                                <div class="list-polozka">
+                                    <img src="/res/obr/omne.png">
+                                    <h3>About me</h3>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+        <div class="hlavny-panel">
+            <section class="sekcia" id="praca" data-id="0">
+                <div class="sekcia-praca">
+                    <h2 class="flex1">Work experience</h2>
+                    <h2 class="flex2">Project experience</h2>
+                </div>
+                <div class="sekcia-praca">
+                    <div class="data-wrapper flex1">
+                        <ul class="timeline-ul">
+                            <li class="timeline-li h100">
+                                <p class="rok">now</p>
+                                <div class="job">
+                                    <h3>Descartes</h3>
+                                    <strong>Software developer</strong>
+                                    <p>(C# .NET, .NET Core, SQL)</p>
+                                </div>
+                                <p class="rok rok-posledny">2014</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="data-wrapper flex2">
+                        <ul class="timeline-ul">
+                            <li class="timeline-li">
+                                <p class="rok">now</p>
+                                <div class="job">
+                                    <strong>E-Customs</strong>
+                                    <p>Responsibilities: full-stack development of web application.</p>
+                                </div>
+                                <p class="rok">2014</p>
+                            </li>
+                            <li class="timeline-li">
+                                <p class="rok">now</p>
+                                <div class="job">
+                                    <strong>E-Customs</strong>
+                                    <p>Responsibilities: full-stack development of web application.</p>
+                                </div>
+                                <p class="rok">2014</p>
+                            </li>
+                            <li class="timeline-li">
+                                <p class="rok">now</p>
+                                <div class="job">
+                                    <strong>E-Customs</strong>
+                                    <p>Responsibilities: full-stack development of web application.</p>
+                                </div>
+                                <p class="rok">2014</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class="sekcia" id="vzdelanie" data-id="1">
+                <h2>Education</h2>
+                <div class="data-wrapper">
+                    <ul class="timeline-ul">
+                        <li class="timeline-li">
+                            <p class="rok">2014</p>
+                            <div class="vzdelanie">
+                                <div class="popis">
+                                    <h2>Master Degree, University of Žilina</h2>
+                                    <h4>
+                                        Faculty of Electrical Engineering
+                                    </h4>
+                                    <h4>Department of Control and Information Systems –
+                                        Automation
+                                    </h4>
+                                    <h3>
+                                        Diploma thesis: Application of the control camera system in the robotic
+                                        workstation.
+                                    </h3>
+                                </div>
+                            </div>
+                            <p class="rok">2012</p>
+                        </li>
+                        <li class="timeline-li">
+                            <p class="rok">2012</p>
+                            <div class="vzdelanie">
+                                <div class="popis">
+                                    <h2>Bachelor Degree, University of Žilina</h2>
+                                    <h4>
+                                        Faculty of Electrical Engineering
+                                    </h4>
+                                    <h4>Department of Control and Information Systems –
+                                        Automation
+                                    </h4>
+                                    <h3>
+                                        Bachelor thesis: Protocol analysis of NAVSTAR GPS.
+                                    </h3>
+                                </div>
+                            </div>
+                            <p class="rok">2008</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr>
+            <section class="sekcia" id="ine" data-id="2">
+                <h2>Other knowledge</h2>
+                <div class="data-wrapper">
+                    <ul class="strom-start">
+                        <li class="strom-start-li">
+                            <h3>IOT enthusiast</h3>
+                            <ul class="strom-vnoreny">
+                                <li class="strom-vnoreny-li">RaspberryPi</li>
+                                <li class="strom-vnoreny-li">ESP32</li>
+                                <li class="strom-vnoreny-li">ESP8266</li>
+                                <li class="strom-vnoreny-li">Arduino</li>
+                            </ul>
+                        </li>
+                        <li class="strom-start-li">
+                            <h3>Programming languages</h3>
+                            <ul class="strom-vnoreny">
+                                <li class="strom-vnoreny-li">C</li>
+                                <li class="strom-vnoreny-li">C++</li>
+                                <li class="strom-vnoreny-li">Python</li>
+                            </ul>
+                        </li>
+                        <li class="strom-start-li">
+                            <h3>Web languages</h3>
+                            <ul class="strom-vnoreny">
+                                <li class="strom-vnoreny-li">HTML</li>
+                                <li class="strom-vnoreny-li">CSS</li>
+                                <li class="strom-vnoreny-li">JavaScript</li>
+                            </ul>
+                        </li>
+                        <li class="strom-start-li">
+                            <h3>Database system</h3>
+                            <ul class="strom-vnoreny">
+                                <li class="strom-vnoreny-li">MS SQL</li>
+                            </ul>
+                        </li>
+                        <li class="strom-start-li">
+                            <h3>Electrical certification §23</h3>
+                        </li>
+                        <li class="strom-start-li">
+                            <h3>Microsoft Office</h3>
+                        </li>
+                        <li class="strom-start-li">
+                            <h3>Driving license B</h3>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr>
+            <section class="sekcia" id="kontakt" data-id="3">
+                <h2>About me</h2>
+                <h3>Personal information</h3>
+                <div class="kontakt-karta">
+                    <div class="karta-data">
+                        <p class="karta-text-maly">Name</p>
+                        <p class="karta-text-bg">Michal Furinda</p>
+                        <p class="karta-text-maly">Date of birth</p>
+                        <p class="karta-text-bg">1988-10-10</p>
+                        <p class="karta-text-maly">Nationality</p>
+                        <p class="karta-text-bg">Slovak</p>
+                        <p class="karta-text-maly">State</p>
+                        <p class="karta-text-bg">Married</p>
+                        <p class="karta-text-maly">Phone</p>
+                        <p class="karta-text-bg">+421 917 149 027</p>
+                        <p class="karta-text-maly">E-mail</p>
+                        <p class="karta-text-bg">michalfurinda@gmail.com</p>
+                        <p class="karta-text-maly">Address</p>
+                        <p class="karta-text">Mila Urbana 1433/15</p>
+                        <p class="karta-text">02601 Dolný Kubín</p>
+                        <p class="karta-text">Slovakia</p>
+                    </div>
+                    <div class="karta-img">
+                        <img class="img-bar" src="/res/obr/mfbc.png">
+                        <img class="img-avatar" src="/res/obr/ja.bmp">
+                    </div>
+                </div>
+                <div class="jazyky">
+                    <h3>Languages</h3>
+                    <div class="jazyk-polozka">
+                        <p>Slovak (Native)</p>
+                    </div>
+                    <div class="jazyk-polozka">
+                        <p>English (Upper Intermediate)</p>
+                    </div>
+                </div>
+                <div class="hobby">
+                    <h3>Hobby</h3>
+                    <div class="hobby-polozka">
+                        <img src="res/obr/bike.png">
+                        <p>Cycling</p>
+                    </div>
+                    <div class="hobby-polozka">
+                        <img src="res/obr/pc.png">
+                        <p>Computers</p>
+                    </div>
+                    <div class="hobby-polozka">
+                        <img src="res/obr/cpu.png">
+                        <p>Electronics</p>
+                    </div>
+                </div>
+                <div class="moje-projekty">
+                    <h3>My personal projects</h3>
+                    <div class="moje-projekty-polozka">
+                        <h1>misko</h1>
+                        <a href="https://drive.google.com/drive/folders/1M5_cr6poVxYCNvt11vOTKAk2N5fSTg1T?usp=sharing"
+                            target="_blank">
+                            <img src="/res/obr/navlink.png" alt="navlink">
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <hr>
+        </div>
+    </main>
+
+    <script src="/res/js/cv.js"></script>
 </body>
 
 </html>

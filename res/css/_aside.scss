@@ -1,0 +1,123 @@
+aside
+{
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    width: var(--aside-panel-width);
+    height: 90vh;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 25px;
+    border-style: solid;
+    position: fixed;
+    left: 1rem;
+    top: 4vh;
+    background: linear-gradient(135deg,rgba(255,255,255,.2),rgba(255,255,255,.8));
+    transition: all .75s;
+    min-width: 10vw;
+}
+
+.aside {
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+.aside::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
+
+.avatar img{
+    width: 100%;
+    border-radius: 25px;
+    padding-bottom: .25rem;
+}
+
+.avatar{
+    padding: 1rem .25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.list-polozky{
+    width: 100%;
+    padding: 1rem 0.25rem;
+}
+
+.list-polozky nav ul{
+    list-style: none;
+}
+
+.list-polozky nav ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.list-polozka{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 1rem .25rem;
+    letter-spacing: .25rem;
+}
+
+.list-polozka h3
+{
+    padding-left: .5rem;
+}
+
+.list-polozka img{
+    width: 1.5rem;
+}
+
+.navlink{
+    border: 0;
+    background: transparent;
+    border-radius: 25px;
+    transition: background-color 1s;
+}
+
+.navlink-active{
+    background-color: #ffffff;
+    border-width: 1px;
+    border-color: #999999;
+    border-style: solid;
+    border-radius: 25px;
+}
+
+@media (max-width: 720px)
+{
+    :root{
+        --aside-panel-width: 15vw;
+    }
+
+    .list-polozka{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .list-polozka h3{
+        display: none;
+    }
+
+    .list-polozka img{
+        width: auto;
+    }
+}
+
+// @media only screen and (orientation: landscape) {
+//     :root{
+//         --aside-panel-width: 30vh;
+//     }
+//   }
+
+//   @media only screen and (orientation: portrait) {
+//     :root{
+//         --aside-panel-width: 15vh;
+//     }
+//   }

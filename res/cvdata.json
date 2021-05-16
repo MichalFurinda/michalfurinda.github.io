@@ -1,0 +1,258 @@
+{
+    "Joby": [
+        {
+            "JobPK": 5,
+            "Pozicia": "Software developer",
+            "Firma": "Descartes",
+            "Zaciatok": "1/8/2019",
+            "Koniec": null,
+            "Technologie": [
+                "C# .NET",
+                "C# .NET Core",
+                "SQL"
+            ]
+        },
+        {
+            "JobPK": 4,
+            "Pozicia": "Software developer",
+            "Firma": "Elnec s.r.o.",
+            "Zaciatok": "1/4/2018",
+            "Koniec": "31/7/2019",
+            "Technologie": [
+                "OpenCV",
+                "Delphi Pascal",
+                "C# .NET",
+                "Python"
+            ]
+        },
+        {
+            "JobPK": 3,
+            "Pozicia": "Robotic engineer",
+            "Firma": "The Automated Technology Group",
+            "Zaciatok": "1/3/2017",
+            "Koniec": "31/3/2018",
+            "Technologie": [
+                "RobotStudio",
+                "C# .NET"
+            ]
+        },
+        {
+            "JobPK": 2,
+            "Pozicia": "Automation engineer",
+            "Firma": "ABB",
+            "Zaciatok": "1/8/2014",
+            "Koniec": "28/2/2017",
+            "Technologie": [
+                "ABB 800xA"
+            ]
+        },
+        {
+            "JobPK": 1,
+            "Pozicia": "PLC programmer",
+            "Firma": "AV Systémy",
+            "Zaciatok": "1/6/2012",
+            "Koniec": "31/4/2014",
+            "Technologie": [
+                "TIA Portal",
+                "RobotStudio"
+            ]
+        }
+    ],
+    "Projekty": [
+        {
+            "JobFK": 5,
+            "Nazov": "E-Customs",
+            "Zaciatok": "1/8/2019",
+            "Koniec": null,
+            "Popis": "Responsibilities: full-stack development of web application."
+        },
+        {
+            "JobFK": 4,
+            "Nazov": "3-axis chip handler",
+            "Zaciatok": "1/4/2018",
+            "Koniec": "31/7/2019",
+            "Popis": "Responsibilities: develop 3-axis chip handler with computer vision using OpenCV library."
+        },
+        {
+            "JobFK": 3,
+            "Nazov": "JLR production line robots",
+            "Zaciatok": "1/3/2017",
+            "Koniec": "31/3/2018",
+            "Popis": "Responsibilities: setup robots for various technological tasks."
+        },
+        {
+            "JobFK": 3,
+            "Nazov": "Support applications for automated robot software chekings",
+            "Zaciatok": "1/3/2017",
+            "Koniec": "31/3/2018",
+            "Popis": "Developed applications for automated robot software checkings and corrections."
+        },
+        {
+            "JobFK": 2,
+            "Nazov": "Cyclo converter project",
+            "Zaciatok": "1/6/2016",
+            "Koniec": "28/2/2017",
+            "Popis": "Responsibilities: Visualization."
+        },
+        {
+            "JobFK": 2,
+            "Nazov": "Megastar propulsion control application",
+            "Zaciatok": "1/10/2014",
+            "Koniec": "28/2/2017",
+            "Popis": "Responsibilities: PLC software and process visualization."
+        },
+        {
+            "JobFK": 1,
+            "Nazov": "Modernization of the rolling device",
+            "Zaciatok": "1/9/2013",
+            "Koniec": "31/10/2013",
+            "Popis": "Responsibilities: Process visualization and software programming."
+        },
+        {
+            "JobFK": 1,
+            "Nazov": "Concatenation of production line",
+            "Zaciatok": "1/6/2013",
+            "Koniec": "30/9/2013",
+            "Popis": "Responsibilities: Process visualization and PLC software programming."
+        },
+        {
+            "JobFK": 1,
+            "Nazov": "IRB1600 robot for material handling",
+            "Zaciatok": "1/2/2013",
+            "Koniec": "31/3/2013",
+            "Popis": "Responsibilities: Software for robot, software communication module for O2D222."
+        },
+        {
+            "JobFK": 1,
+            "Nazov": "Line switch BEHR",
+            "Zaciatok": "1/7/2012",
+            "Koniec": "31/8/2012",
+            "Popis": "Responsibilities: Control and communication with NORD drive system over RS485 bus."
+        }
+    ],
+    "Vzdelanie": [
+        {
+            "Titul": "Master Degree",
+            "Univerzita": "University of Žilina",
+            "Fakulta": "Faculty of Electrical Engineering",
+            "Katedra": "Department of Control and Information Systems",
+            "Praca": "Application of the control camera system in the robotic workstation.",
+            "Zaciatok": "1/9/2012",
+            "Koniec": "31/7/2014"
+        },
+        {
+            "Titul": "Bachelor Degree",
+            "Univerzita": "University of Žilina",
+            "Fakulta": "Faculty of Electrical Engineering",
+            "Katedra": "Department of Control and Information Systems",
+            "Praca": "Protocol analysis of NAVSTAR GPS.",
+            "Zaciatok": "1/9/2008",
+            "Koniec": "31/8/2012"
+        }
+    ],
+    "IneVedomosti": [
+        {
+            "Nazov": "IOT enthusiast",
+            "PodNazvy": [
+                "RaspberryPi",
+                "ESP32",
+                "ESP8266",
+                "Arduino"
+            ]
+        },
+        {
+            "Nazov": "Programming languages",
+            "PodNazvy": [
+                "C",
+                "C++",
+                "Python"
+            ]
+        },
+        {
+            "Nazov": "Web languages",
+            "PodNazvy": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ]
+        },
+        {
+            "Nazov": "Database system",
+            "PodNazvy": [
+                "MS SQL"
+            ]
+        },
+        {
+            "Nazov": "Electrical certification §23",
+            "PodNazvy": []
+        },
+        {
+            "Nazov": "Microsoft Office",
+            "PodNazvy": []
+        },
+        {
+            "Nazov": "Driving license B",
+            "PodNazvy": []
+        }
+    ],
+    "OMne": {
+        "Kontakt": {
+            "Mobil": "+421 917 149 027",
+            "Mail": "michalfurinda@gmail.com",
+            "Adresa": [
+                "Mila Urbana 1433/15",
+                "02601 Dolný Kubín",
+                "Slovakia"
+            ]
+        },
+        "Stav": "Married",
+        "Narodnost": "Slovak",
+        "Narodeny": "1988-10-10",
+        "Jazyky": [
+            {
+                "Jazyk": "Slovak",
+                "Uroven": "Native"
+            },
+            {
+                "Jazyk": "English",
+                "Uroven": "Advance"
+            }
+        ],
+        "Avatar": {
+            "Meno": "Michal Furinda",
+            "Obrazok": "/res/obr/ja.bmp"
+        },
+        "Hoby": [
+            {
+                "Nazov": "Electronics",
+                "Obrazok": "/res/obr/cpu.png"
+            },
+            {
+                "Nazov": "Computers",
+                "Obrazok": "/res/obr/pc.png"
+            },
+            {
+                "Nazov": "Fitness",
+                "Obrazok": "/res/obr/fitness.png"
+            },
+            {
+                "Nazov": "Biking",
+                "Obrazok": "/res/obr/bike.png"
+            }
+        ],
+        "MojeProjekty": [
+            {
+                "Nazov": "Kitchen smart light",
+                "URL": "https://drive.google.com/drive/folders/1M5_cr6poVxYCNvt11vOTKAk2N5fSTg1T?usp=sharing"
+            },
+            {
+                "Nazov": "Smart mirror",
+                "URL": "https://drive.google.com/drive/folders/1eFG9vUj5Ob_ltSucmphsDCNYGRid8wIX?usp=sharing"
+            },
+            {
+                "Nazov": "Thermometer",
+                "URL": "https://drive.google.com/drive/folders/1fdnN5S15nJBNL4Gu2f5RqPiTAYypDqrs?usp=sharing"
+            }
+        ]
+    }
+}

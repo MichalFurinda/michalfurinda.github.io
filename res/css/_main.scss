@@ -1,0 +1,216 @@
+.hlavny-panel{
+    border: 1px solid white;
+    border-radius: 25px;
+    margin-left: calc(var(--aside-panel-width) + 2rem);
+    margin-top: 4vh;
+    margin-right: 1rem;
+    min-height: 90vh;
+    background: linear-gradient(135deg, rgba(255,255,255,.2),rgba(255,255,255,.8));
+    display: flow-root;
+    height: 90vh;
+    overflow: auto;
+    scroll-behavior: smooth;
+    max-width: 800px;
+    transition: all .75s;
+}
+
+/*disable scrollbar podla https://stackoverflow.com/questions/16670931/hide-scroll-bar-but-while-still-being-able-to-scroll*/
+.hlavny-panel {
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+.hlavny-panel::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
+
+.sekcia {
+    padding: 1rem .5rem;
+    min-height: 90vh;
+    overflow: auto;
+}
+
+.vzdelanie {
+    padding: 0;
+}
+
+.timeline-ul {
+    list-style: none;
+    height: 100%;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline-li {
+    position: relative;
+    padding-bottom: 2.25rem;
+    height: 100%;
+}
+
+.timeline-li::after {
+    content: "";
+    width: 3px;
+    height: 100%;
+    background-color: var(--timeline-color);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.rok {
+    padding: 0.5rem 1rem;
+    position: relative;
+}
+
+.rok::before {
+    content: "";
+    height: 1rem;
+    width: 1rem;
+    position: absolute;
+    background-color: var(--timeline-color);
+    border-radius: 50%;
+    left: calc(-.5rem + 2px);
+}
+
+.rok-posledny {
+    position: absolute;
+    bottom: 0rem;
+
+}
+
+.popis {
+    margin-left: 2rem;    
+}
+
+.popis h2, 
+.popis h3 {
+    padding: .5rem 0rem
+}
+
+.popis h4 {
+    padding: .5rem .5rem 0 .5rem;
+}
+
+.sekcia-praca {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.flex2 {
+    flex: 2;
+}
+
+.job {
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.hr-job {
+    background-color: var(--timeline-color);
+    height: 2px;
+    margin: 0 1rem;
+    border: 0;
+}
+
+.data-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.kontakt-karta {
+    border-width: 3px;
+    border-color: black;
+    border-style: double;
+    margin: 1rem;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    padding: .25rem .25rem;
+    background-color: white;
+}
+
+.karta-text-bg{
+    border-bottom: 2px solid blue;
+    padding-right: .25rem;
+}
+
+.karta-text{
+    padding-right: .25rem;
+}
+
+.karta-text-maly {
+    font-size: xx-small;
+}
+
+.img-bar, .img-avatar{
+    width: 150px;
+}
+
+.img-avatar{
+    border: 2px solid blue
+}
+
+.img-bar{
+    padding: 0.25rem .5rem;
+}
+
+.karta-img{
+    display: flex;
+    flex-direction: column;
+}
+
+.karta-data{
+    margin-top: .5rem;
+}
+
+.hobby{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-bottom: .5rem;
+}
+
+.hobby-polozka
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding-left: 1rem;
+}
+
+.jazyky{
+    display: flex;
+    padding-bottom: .5rem;
+}
+
+.jazyk-polozka{
+    padding-left: 1rem;
+}
+
+.moje-projekty{
+    
+}
+
+.moje-projekty-polozka{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.moje-projekty-polozka img{
+    height: 1rem;
+    width: 1rem;
+    margin-left: 1rem;
+}
