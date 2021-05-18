@@ -65,14 +65,10 @@ function vytvorPrace(joby, projekty) {
 
 function vytvorPracu(job, projekty) {
     var html = [];
-
-    var str = "";
-    //if (projekty.length > 1)
-    //    str = " h100";
     html.push(`<div class="sekcia-praca">`);
     html.push(`<div class="data-wrapper flex1">`);
     html.push(`<ul class="timeline-ul">`);
-    html.push(`<li class="timeline-li${str}">`);
+    html.push(`<li class="timeline-li">`);
     html.push(`<p class="rok">${job["Koniec"] == null ? "now" : job["Koniec"]}</p>`);
     html.push(`<div class="job">`);
     html.push(`<h3>${job["Firma"]}</h3>`);
@@ -239,8 +235,8 @@ function vytvorOMne(OMne) {
 
 function VytvorAvatara(avatar) {
     var html = [];
-    html.push(`<img src="${avatar['Obrazok']}" alt="avatar">
-                <h3>${avatar['Meno']}</h3>`);
+    html.push(`<img src="${avatar['Obrazok']}" alt="avatar">`);
+    html.push(`<h3>${avatar['Meno']}</h3>`);
 
     document.getElementById("avatar").innerHTML = html.join("\n");
 }
