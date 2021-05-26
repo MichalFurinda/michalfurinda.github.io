@@ -484,11 +484,11 @@ aside {
 }
 
 body {
-  background: #00B4DB;
+  background: #2BC0E4;
   /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-gradient(linear, left top, right top, from(#0083B0), to(#00B4DB));
-  background: linear-gradient(to right, #0083B0, #00B4DB);
+  background: -webkit-gradient(linear, right top, left top, from(#EAECC6), to(#2BC0E4));
+  background: linear-gradient(to left, #EAECC6, #2BC0E4);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 /*# sourceMappingURL=cv.css.map */

@@ -20,7 +20,7 @@ function listcheck(entries) {
     });
 }
 
-document.body.onload = cvdataload;
+//document.body.onload = cvdataload;
 function cvdataload(ev) {
     $.ajax(
         {
